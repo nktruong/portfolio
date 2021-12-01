@@ -3,10 +3,10 @@ import {Link} from 'react-router-dom'
 
 function Hero() {
   return (
-    <div className="flex justify-around">
-      <div className="w-1/2">
-        <h1 className="lg:text-5xl md:text-3xl sm:text-xl text-3xl text-gray-50 font-black mb-14">Welcome to my site, my name is Nathan.</h1>
-        <Link className="py-3 px-10 bg-purple-600 rounded-2xl shadow-md text-3xl text-gray-50 font-semibold hover:bg-purple-700 transition duration-150 ease-in transform hover:-translate-y-0.5 flex items-center" to="/featured">
+    <div className="flex justify-around max-w-7xl m-auto py-20">
+      <div className="w-1/2 text-left">
+        <h1 className="lg:text-6xl md:text-3xl sm:text-xl text-3xl text-gray-50 font-bold mb-14">Welcome to my site, my name is Nathan.</h1>
+        <Link className="py-3 px-4 bg-purple-600 rounded-xl shadow-md text-xl text-gray-50 font-semibold hover:bg-purple-700 transition duration-150 ease-in transform hover:-translate-y-0.5 flex items-center w-max" to="/featured">
           Check out my latest project, Cookdeck
 
           <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 ml-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
