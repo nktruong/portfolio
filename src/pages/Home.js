@@ -1,7 +1,11 @@
+import Content from "../components/Content";
+import Hero from "../components/Hero";
+
 function Home(){
   return (
     <div>
-      <h1 className="text-4xl font-semibold bg-indigo-600">Welcome to my website!</h1>
+      <Hero />
+      <Content />
     </div>
   );
 }

@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 function Hero() {
   return (
     <div className=" flex flex-col justify-center items-center">
-      <h1 className="lg:text-9xl md:text-7xl sm:text-5xl text-3xl font-black mb-14">woah</h1>
+      <h1 className="lg:text-9xl md:text-7xl sm:text-5xl text-3xl text-gray-50 font-black mb-14">woah</h1>
       <Link className="py-3 px-10 bg-purple-600 rounded-2xl shadow-md text-3xl text-gray-50 font-semibold hover:bg-purple-700 transition duration-150 ease-in transform hover:-translate-y-0.5 flex items-center" to="/featured">
         Check out my latest project, Cookdeck
 
