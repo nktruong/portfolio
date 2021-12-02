@@ -6,7 +6,7 @@ import Featured from './pages/Featured'
 import Portfolio from './pages/Portfolio'
 import Contact from './pages/Contact'
 import Hotbar from './components/Hotbar'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 function App() {
   return (
