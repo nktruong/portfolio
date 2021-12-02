@@ -3,11 +3,11 @@ import {Link} from 'react-router-dom'
 
 function Hero() {
   return (
-    <div className="flex justify-around max-w-7xl m-auto py-40">
+    <div className="flex justify-around max-w-7xl m-auto py-40 animate-fade-in-down">
       <div className="w-1/2 text-left pr-6">
         <h1 className="lg:text-5xl md:text-3xl sm:text-xl text-2xl text-green-900 dark:text-transparent bg-clip-text caret-pink-600 bg-gradient-to-br dark:from-purple-500 dark:via-purple-400 dark:to-fuchsia-100 font-bold mb-12">Welcome to my site! 
         <span class="block">I'm Nathan.</span></h1>
-        <p className="lg:text-2xl font-medium text-green-800 dark:text-indigo-200 tracking-tight">It's nice to meet you! Though we just met. You can roam through this site to see who I am, what I do, what projects I've done, or you can check out my socials.</p>
+        <p className="lg:text-2xl font-medium text-green-800 dark:text-indigo-200 tracking-tight">It's nice to meet you! You can roam through this site to see who I am, what I do, what projects I've done, or you can check out my socials.</p>
 
         <div className="px-8 py-10 mt-2">
           <div className="grid gap-10 items-start justify-center">
