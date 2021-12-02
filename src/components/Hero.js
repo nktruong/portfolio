@@ -35,8 +35,8 @@ function Hero() {
       <div className="w-1/2">
         <Link to="/bityard">
         <picture>
-          <img className="transform -rotate-3 rounded-lg shadow-inner scale-90 hover:scale-95 transition ease-in duration-150 cursor-pointer" src="https://media.discordapp.net/attachments/763423276671434812/915047670530310144/2021-11-29_20.12.32.png?width=2160&height=1162" alt="Minecraft screenshot of green hills and white horses"/>
           <source media="(prefers-color-scheme: dark)" className="transform -rotate-3 rounded-lg shadow-inner scale-90 hover:scale-95 transition ease-in duration-150 cursor-pointer" srcset="https://resourcepack.net/fl/images/2020/08/BSL-Shaders-for-minecraft-8.jpg" alt="Minecraft screenshot of the Nether with shaders"/>
+          <img className="transform -rotate-3 rounded-lg shadow-inner scale-90 hover:scale-95 transition ease-in duration-150 cursor-pointer" src="https://media.discordapp.net/attachments/763423276671434812/915047670530310144/2021-11-29_20.12.32.png?width=2160&height=1162" alt="Minecraft screenshot of green hills and white horses"/>
         </picture>
         </Link>
       </div>

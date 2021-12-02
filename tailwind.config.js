@@ -1,9 +1,14 @@
 const colors = require('tailwindcss/colors')
+const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   darkMode: 'media', // or 'media' or 'class'
   theme: {
+    screens: {
+      xs: '540px',
+      ...defaultTheme.screens,
+    },
     extend: {
       colors: {
         transparent: 'transparent',
@@ -39,7 +44,10 @@ module.exports = {
   variants: {
     extend: {
       translate: ['active', 'group-hover'],
+      aspectRatio: ['responsive', 'hover'],
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/aspect-ratio')
+  ],
 }

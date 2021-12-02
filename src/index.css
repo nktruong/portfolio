@@ -9,12 +9,15 @@
 * {
   font-family: 'Inter', sans-serif;
 }
-.serif {
-  font-family: 'DM Serif', serif;
-}
-body {
-  @apply bg-gradient-to-br from-yellow-200 via-green-200 to-green-300  dark:from-gray-800 dark:via-gray-900 dark:to-black min-h-screen;
-}
-dbody {
-  @apply min-h-screen;
+
+@layer utilities{
+  .serif {
+    font-family: 'DM Serif', serif;
+  }
+  .square {
+    aspect-ratio: 1 / 1;
+  }
+  body {
+    @apply bg-gradient-to-br from-yellow-200 via-green-200 to-green-300  dark:from-gray-800 dark:via-gray-900 dark:to-black min-h-screen;
+  }
 }
