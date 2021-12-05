@@ -10,6 +10,9 @@ module.exports = {
       ...defaultTheme.screens,
     },
     extend: {
+      fontFamily: {
+        'dm': ['DM Sans', 'serif']
+      },
       colors: {
         transparent: 'transparent',
         current: 'currentColor',

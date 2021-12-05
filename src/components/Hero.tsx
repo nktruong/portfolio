@@ -6,7 +6,7 @@ function Hero() {
     <div className="flex justify-around max-w-7xl m-auto py-40 animate-fade-in-down">
       <div className="w-1/2 text-left pr-6">
         <h1 className="lg:text-5xl md:text-3xl sm:text-xl text-2xl bg-gradient-to-br from-green-900 via-green-700 to-yellow-300 text-transparent bg-clip-text caret-pink-600 dark:from-purple-500 dark:via-purple-400 dark:to-fuchsia-100 font-bold mb-12">Welcome to my site! 
-        <span class="block">I'm Nathan.</span></h1>
+        <span className="block">I'm Nathan.</span></h1>
         <p className="lg:text-2xl font-medium text-green-800 dark:text-indigo-200 tracking-tight">It's nice to meet you! You can roam through this site to see who I am, what I do, what projects I've done, or you can check out my socials.</p>
 
         <div className="px-8 py-10 mt-2">
@@ -35,7 +35,7 @@ function Hero() {
       <div className="w-1/2">
         <Link to="/bityard">
         <picture>
-          <source media="(prefers-color-scheme: dark)" className="transform -rotate-3 rounded-lg shadow-inner scale-90 hover:scale-95 transition ease-in duration-150 cursor-pointer" srcset="https://resourcepack.net/fl/images/2020/08/BSL-Shaders-for-minecraft-8.jpg" alt="Minecraft screenshot of the Nether with shaders"/>
+          <source media="(prefers-color-scheme: dark)" className="transform -rotate-3 rounded-lg shadow-inner scale-90 hover:scale-95 transition ease-in duration-150 cursor-pointer" srcSet="https://resourcepack.net/fl/images/2020/08/BSL-Shaders-for-minecraft-8.jpg"/>
           <img className="transform -rotate-3 rounded-lg shadow-inner scale-90 hover:scale-95 transition ease-in duration-150 cursor-pointer" src="https://media.discordapp.net/attachments/763423276671434812/915047670530310144/2021-11-29_20.12.32.png?width=2160&height=1162" alt="Minecraft screenshot of green hills and white horses"/>
         </picture>
         </Link>
