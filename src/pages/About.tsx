@@ -4,7 +4,6 @@ import Container from '../components/container';
 function About(){
   return (
     <>
-      <Container>
         <h1 className="font-inter px-10 pt-20 pb-8 lg:text-7xl text-4xl font-semibold from-green-900 via-green-700 to-yellow-300 text-transparent bg-clip-text caret-pink-600 bg-gradient-to-br dark:from-purple-500 dark:via-purple-400 dark:to-fuchsia-100">Who am I?</h1>
 
         <div className="bg-gray-50 px-10 py-8 space-y-12 rounded-2xl shadow-md">
@@ -46,7 +45,6 @@ function About(){
             </div>
           </div>
         </div>
-      </Container>
     </>
   );
 }
