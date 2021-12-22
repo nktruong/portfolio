@@ -1,70 +1,14 @@
-# Getting Started with Create React App
+# My 2021 Personal React Site
+My own site designed and developed by me, to have fun with learning new technologies (like Framer Motion in the future...) and utilizing them into showing off my past + current projects. You will also be able to see more info about the Minecraft community I manage, called Shroomhearth 🍄
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Click over there ->** https://www.nktruong.com/
 
-## Available Scripts
+![Portfolio site](https://user-images.githubusercontent.com/88857875/146137212-10a8ec4d-0548-4a25-aa7c-3817e54e7bef.png)
 
-In the project directory, you can run:
+## Tech Stack
 
-### `npm start`
+_React_ and _TailwindCSS_ for the front-end. Hosted on Netlify!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**Why React?** During development of my demo day project, Cookdeck, I had lots of trouble keeping track of my header/navigation bar: where I changed it, which looked better, etc. Due to some back-end API work as well, EJS would throw an error if the variable did not exist. In this case, the user was not logged in so there was no email to check for. So, knowing that React is a UI component library and that I would eventually be learning that, I jumped on board early to get a head start in the trenches of React. And it was fruitful, as you can see on my site!
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Why Tailwind?** Just personal choice. I like their opinionated design guidelines and also don't want to take much time remembering the CSS for things like animations. I already had a very solid foundation of CSS (selectors up to responsive design), but Tailwind made it so quick to use and learn new styles from how short the utility classes are named.Their Youtube videos are also pretty cool too.
