@@ -7,7 +7,7 @@ import Contact from './pages/Contact'
 import Hotbar from './components/Hotbar'
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
-function App() {
+export default function App({ Component, pageProps }) {
   return (
     <div className="App">
       <BrowserRouter>

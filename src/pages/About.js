@@ -4,7 +4,7 @@ import Container from '../components/Container'
 function About(){
   return (
     <Container message="Travis is cool">
-        <h1 className="font-inter px-10 pt-20 pb-8 lg:text-7xl text-4xl font-semibold from-green-900 via-green-700 to-yellow-300 text-transparent bg-clip-text caret-pink-600 bg-gradient-to-br dark:from-purple-500 dark:via-purple-400 dark:to-fuchsia-100">Who am I?</h1>
+        <h1 className="font-inter px-10 pb-8 lg:text-7xl text-4xl font-semibold from-green-900 via-green-700 to-yellow-300 text-transparent bg-clip-text caret-pink-600 bg-gradient-to-br dark:from-purple-500 dark:via-purple-400 dark:to-fuchsia-100">Who am I?</h1>
 
         <div className="bg-gray-50 px-10 py-8 space-y-12 rounded-2xl shadow-md">
           <p className="prose prose-xl font-medium dark:text-gray-50">Hello, my name is Nathan Truong. I am a full-stack software engineer, but my joy is the front-end and visuals. I currently at <a href="https://resilientcoders.org" target="_blank" rel="noreferrer" aria-label="Resilient Coders"><span className="text-red-600 font-semibold">Resilient Coders</span></a> as a Software Engineer, but I'm looking for new opportunities in the field! I've worked design gigs in the past, like at MDA Let's Play being a freelance graphic designer. So naturally, when learning to be a developer I stumbled upon a treasure trove once I understood CSS. I also play a lot of Minecraft. If you or you know someone who has open positions for a front-end engineer or full-stack engineer, send them my way via the form on my <Link to="/contact">Contact</Link> page.</p>
